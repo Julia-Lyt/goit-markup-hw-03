@@ -312,10 +312,6 @@ img {
     flex-direction: column;
 }
 
-.logo-part {
-    color: #f4f4fd;
-}
-
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -328,6 +324,17 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    width: 115px;
+    height: 24px;
+}
+
+.logo-part {
+    color: #f4f4fd;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-text {
