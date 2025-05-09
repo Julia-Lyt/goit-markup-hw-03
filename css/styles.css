@@ -319,7 +319,7 @@ img {
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
-    padding-left: 0;
+    padding: 0;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
