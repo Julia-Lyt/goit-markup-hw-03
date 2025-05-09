@@ -107,6 +107,12 @@ img {
         gap: 40px;
     }
 
+.contacts-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .contacts-link {
     display: block;
     padding: 24px 0;
@@ -149,6 +155,10 @@ img {
     margin-left: auto;
     padding: 16px 32px;
     border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    min-width: 169px;
+    height: 56px;
+    border: none;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -180,6 +190,7 @@ img {
 }
 
 .section-features-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -187,7 +198,6 @@ img {
     color: #2e2f42;
 }
 .section-features-text {
-    padding-top: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -204,7 +214,7 @@ img {
 }
 
 .section-team-title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -223,10 +233,11 @@ img {
 }
 
 .team-card-container {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-card-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -255,7 +266,7 @@ img {
 }
 
 .section-portfolio-title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -266,10 +277,7 @@ img {
 }
 
 .portfolio-card-container {
-    padding-top: 32px;
-    padding-right: 0;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -277,6 +285,7 @@ img {
 }
 
 .portfolio-card-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -284,7 +293,6 @@ img {
     color: #2e2f42;
 }
 .portfolio-card-text {
-    padding-top: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -306,9 +314,17 @@ img {
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+}
+
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
+    padding-left: 0;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
+
 .footer-text {
     max-width: 264px;
     font-size: 16px;
